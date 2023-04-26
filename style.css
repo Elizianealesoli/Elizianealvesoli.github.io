@@ -1,8 +1,67 @@
-header {
-    color: rgb(116, 27, 27);
-    background-color: whitesmoke; 
+(55 sloc)  918 Bytes
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'DynaPuff', cursive;
+}
+.cabecalho{
+background-color: #000000;
+color: white;
+display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
 }
 
-.imagem-bolo {
-    width: 20px;
+.cabecalho-imagem{
+width: 20%;
+}
+
+.resumo-imagem {
+    width: 30%;
+}
+.resumo {
+    background-image: linear-gradient(#000000,#000000);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0;
+
+}
+.resumo-div-conteudo {
+    width: 40%;
+}
+
+.resumo-titulo {
+    padding: 26px 0;
+}
+
+.estudante {
+    background-color: #000000;
+color: white;
+}
+
+.estudante-imagem {
+width: 120px;
+}
+
+.estudante-icone {
+    width: 30px;
+}
+
+.estudante-titulo {
+    padding: 30px 0;
+}
+
+.rodape {
+    background-color: #000000;
+    text-align: center;
+}
+
+.rodape-imagem {
+    height: 60px;
+    padding: 12px 0;
+   
 }
